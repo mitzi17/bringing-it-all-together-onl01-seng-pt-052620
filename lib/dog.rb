@@ -31,7 +31,13 @@ class Dog
   end
   
   def self.fing_by_name(name)
+    sql = <<-SQL
+    SELECT *
+    FROM dogs
+    WHERE name = ?
+    SQL
     
+    DB[:conn].execute(sql)
   end
     
   end
