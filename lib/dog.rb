@@ -29,6 +29,10 @@ class Dog
     breed =row [2]
     self.new(id: id, name: name, breed: breed)
   end
+  
+  def self.fing_by_name(name)
+    
+  end
     
   end
 end
