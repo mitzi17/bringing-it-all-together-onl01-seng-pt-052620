@@ -19,6 +19,10 @@ class Dog
   end
   
   def self.drop_table
+    "DROP TABLE IF EXISTS dogs"
+  end
+  
+  def new_from_db
     
   end
 end
