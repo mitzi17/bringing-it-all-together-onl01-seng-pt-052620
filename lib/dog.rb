@@ -59,6 +59,10 @@ class Dog
     end
     self
   end
+  
+  def update
+    
+  end
     
   
 end
