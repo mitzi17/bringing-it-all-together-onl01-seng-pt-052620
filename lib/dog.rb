@@ -55,6 +55,7 @@ class Dog
       SQL
       
       DB[:conn].execute(sql, name, breed)
+      @id = DB[:conn].execute(SELECT from)
   end
     
   
